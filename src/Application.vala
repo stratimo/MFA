@@ -18,16 +18,13 @@
 *
 * Authored by: Stratimo <http://www.facebook.com/stratimo>
 */
-using Granite;
-using Granite.Widgets;
-using Gtk;
 
 namespace MessagesForAndroid {
-    public class Application : Granite.Application {
+    public class Application : Gtk.Application {
 
         public Application () {
             Object(
-                application_id: "MFA", 
+                application_id: "MFA",
                 flags: ApplicationFlags.FLAGS_NONE
             );
         }
